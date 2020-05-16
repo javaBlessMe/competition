@@ -3,6 +3,9 @@ package com.company;
 public class Cat implements Competitions {
     private float heightJump, distanceRun;
     private String name;
+
+   //Переменная, показывающая, что участник готов к новым препятствиям
+    //Если участник не проходит препятствие, то она становиться fasle
     private boolean isReady;
 
     public Cat(float heightJump, float distanceRun, String name) {
